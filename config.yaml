@@ -1,0 +1,26 @@
+# Configuration for ScenarioCraft AI
+
+parsing:
+  # Maximum number of elements of each type to parse from the HTML
+  # Helps prevent performance issues on very large pages.
+  max_elements_per_type: 100 
+
+scenario_generation:
+  # Default categories enabled for scenario generation when the app starts.
+  # Users can override this selection in the UI for each run.
+  # Available keys match the parser output and prompt mapping:
+  # headings, paragraphs, links, buttons, images_and_logos, icons, forms 
+  # (semantic_elements could be added later if prompts are created)
+  enabled_categories_default:
+    - headings
+    - paragraphs
+    - links
+    - buttons
+    - images_and_logos
+    - icons
+    - forms
+
+# AI Model related settings (Optional - Can still primarily use .env)
+# Example: If you wanted to specify model names or parameters here
+# ai:
+#   model_name: "gpt-4o" 
