@@ -1,6 +1,5 @@
 # ScenarioCraft AI: AI-Powered Gherkin Scenario Generation
 
-<img src="src/Logo/Newpage_logo.png" alt="ScenarioCraft AI Logo" width="100"> <!-- Using HTML img tag for size control -->
 
 ## 🚀 Project Overview
 
